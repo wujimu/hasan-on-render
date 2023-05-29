@@ -1,0 +1,94 @@
+
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder.slice(0,1).toUpperCase() + folder.slice(1) }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }} </ion-title>
+
+    </ion-toolbar>
+  </ion-header>
+
+
+
+  <ion-content *ngIf="folder === 'experience' ">
+
+      <ion-grid >
+        <ion-row>
+          <ion-col size="12" size-md="6" size-lg="4" *ngFor="let job of jobs">
+            <ion-card>
+              <img class="image_title" [src]="job.image">
+              <ion-card-header>
+                <ion-card-subtitle>{{job.company}}</ion-card-subtitle>
+                <ion-card-title>{{job.title}}</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                <ul>
+                  <li *ngFor="let point of job.points">{{point}}</li>
+                </ul>
+              </ion-card-content>
+              <!-- <ion-button expand="block" routerLink="/job-details/{{job.id}}">View Details</ion-button> -->
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+</ion-content>
+
+
+
+<ion-content  *ngIf="folder === 'blog' || folder === 'travel'">
+
+      <ion-infinite-scroll (ionInfinite)="loadMoreArticles($event)">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12" size-md="6" size-lg="4" *ngFor="let article of articles">
+              <ion-card>
+                <img class="image_title" [src]="article.image" alt="Article Image">
+                <ion-card-header>
+                  <ion-card-subtitle>{{ article.heading }}</ion-card-subtitle>
+                  <ion-card-title>{{ article.title }}</ion-card-title>
+                  <ion-card-subtitle class="ion-text-end">{{ article.byline }}</ion-card-subtitle>
+                </ion-card-header>
+                <ion-card-content>
+                  <ion-textarea label="text body" [autoGrow]="true">{{ article.body }}</ion-textarea>
+                </ion-card-content>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more articles...">
+        </ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+
+
+
+
+
+
+
+
+
+
+    </ion-content>
+  <div id="container">
+
+
+</div>
+
+    <!-- <strong class="capitalize">{{ folder }}</strong>
+    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+</ion-content>
+
+

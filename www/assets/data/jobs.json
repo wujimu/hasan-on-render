@@ -1,0 +1,98 @@
+[
+  {
+    "image": "/assets/data/independent.jpeg",
+    "company": "Independent Developer",
+    "title": "Senior Software Engineer",
+    "points": [
+      "General problem solving, created tools, ground-up engineering.",
+      "Design features, write requirements, maintain features, bug fixes.",
+      "Wrote a parsers that scans financial documents and chat messages for sentiment.",
+      "Parsed websites, forums",
+      " Performed automated testing with puppeteer",
+      "interfaced with different APIs, and added data to a model.",
+      "Implemented caching strategies",
+      "Backend and Front end development, Typescript, Node, JavaScript",
+      "Tooling Express, Angular,  Node, C, C++, Linux, Assembly, bash script"
+    ],
+    "id": "something"
+  },
+  {
+    "image": "/assets/data/bricata.jpeg",
+    "company": "Bricata",
+    "title": "Senior Software Engineer",
+    "points": [
+      "Designed and developed a real-time dashboard for threat detection and monitoring",
+      "Mentored junior developers on best practices for coding and project management",
+      "Used Angular for the Frontend with Bootstrap.",
+      "Performed code reviews",
+      "Developed  RESTful APIs in Golang",
+      "Scrum environment. Weekly stand-up meetings and JIRA tickets and 2-week sprints."
+    ],
+    "id": "something"
+  },
+  {
+    "image": "/assets/data/comtech.jpeg",
+    "company": "Comtech",
+    "title": "Senior Software Engineer",
+    "points": [
+      "Developed VirtuMedix® telehealth platform. Allows doctors and other caregivers to virtually interact with their patients either on a mobile device, a web portal, or telephone.",
+      "Designed and developed a real-time dashboard for monitoring system health",
+      "Mentored junior developers on best practices for coding and project management",
+      "Frontend Angular and Bootstrap.",
+      "Implemented WebSocket, Stripe, Open-Tok multi-layout, VoIP WebRTC, Open-Tok signaling API, and WebSocket's.",
+      "Performed code reviews and published to github repo",
+      "Weekly stand-ups, JIRA tickets, and 3-week sprints are used for collaboration.",
+      "Front and Backend work, with a focus on scaling up and expanding the Frontend functionality and inter-compatibility with subscribers",
+      "Wrote RESTful web services.",
+      "Frontend Angular and Bootstrap."
+    ],
+    "id": "something"
+  },
+  {
+    "image": "/assets/data/fitness.jpeg",
+    "company": "Wandri",
+    "title": "Senior Software Engineer",
+    "points": [
+      "Led development and maintenance of a full-stack web application for a popular online fitness platform.",
+      "Designed and developed a real-time dashboard for monitoring system health",
+      "Designed and implemented scalable software architecture to support rapid growth of user base and business operations.",
+      "Led a team of developers in building and launching new product features, such as personalized workout recommendations and social fitness challenges.",
+      "Utilized agile development methodologies to manage and prioritize product backlog, ensuring timely delivery of features and bug fixes.",
+      "Conducted code reviews and mentored junior developers to maintain high code quality and ensure team members are up-to-date with latest technologies and best practices.",
+      "Collaborated with cross-functional teams including product managers, designers, and quality assurance engineers to define product requirements and ensure product alignment with business goals.",
+      "Implemented and maintained robust testing frameworks to ensure product quality and reliability.",
+      "Integrated with third-party APIs and services, such as payment processing and fitness tracking apps, to enhance platform functionality and user experience.",
+      "Contributed to company-wide technology strategy and roadmap, providing input on new technologies, architectural improvements, and process optimizations.",
+      "Continuously researched and evaluated new technologies and programming languages to identify opportunities for innovation and improvement."
+    ],
+    "id": "something"
+  },
+  {
+    "image": "/assets/data/cms.jpeg",
+    "company": "Acorles",
+    "title": "Senior Software Engineer",
+    "points": [
+      "LLed a team of developers in the design and implementation of a custom content management system, reducing content publishing time by 30%",
+      "Developed and maintained web-based applications using HTML/CSS, JavaScript, and PHP, resulting in a 20% increase in user engagement and satisfaction",
+      "Implemented agile development methodologies, resulting in faster and more efficient development cycles and a 15% reduction in bugs",
+      "Collaborated with cross-functional teams to design and implement RESTful APIs, resulting in increased flexibility and scalability of the system",
+      "Conducted regular code reviews and implemented automated testing to ensure code quality and reduce the risk of bugs and errors",
+      "Designed and implemented performance monitoring and analysis tools, resulting in a 25% increase in system uptime and faster response times",
+      "Developed and maintained documentation and user guides for the system, ensuring ease of use and reducing support requests by 30%",
+      "Stayed up-to-date with the latest technologies and trends in software development, and implemented best practices to ensure optimal performance and maintainability of the system."
+    ],
+    "id": "something"
+  },
+  {
+    "image": "assets/profile.jpg",
+    "company": "Hasan Seirafi",
+    "title": "Senior Full-Stack Software Engineer",
+    "points": [
+      "Age: 39",
+      "Location: Riverside California",
+      "Email: hasanseirfi69@gmail.com"
+
+    ],
+    "id": "something"
+  }
+]

@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>album</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="oll" [fullscreen]="true" style="height:100%" [scrollEvents]="true"(ionScroll)="onScroll($any($event))"  (ionScrollStart)="handleScrollStart()" (ionScrollEnd)="handleScrollEnd()">
+  <div class="gallery"  >
+    <div class="grid" #grid>
+      <div class="item" *ngFor="let photo of photos">
+
+        <ion-img [src]="photo.medium" alt="Photo" (click)="openModal(photo)" >
+        </ion-img>
+      </div>
+    </div>
+  </div>
+
+</ion-content>
+
+

@@ -17,6 +17,7 @@
     "@angular/common": "^16.0.0",
     "@angular/compiler": "^16.0.0",
     "@angular/core": "^16.0.0",
+    "@angular/fire": "^7.5.0",
     "@angular/forms": "^16.0.0",
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
@@ -27,8 +28,13 @@
     "@capacitor/keyboard": "5.0.1",
     "@capacitor/status-bar": "5.0.1",
     "@ionic/angular": "^7.0.0",
+    "axios": "^1.4.0",
+    "firebase": "^9.21.0",
+    "ionform": "^0.0.28",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
+    "sliderjs": "^2.0.0",
+    "swiper": "^9.3.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
@@ -64,5 +70,13 @@
     "ts-node": "^8.3.0",
     "typescript": "~5.0.2"
   },
-  "description": "An Ionic project"
+  "overrides": {
+    "@angular/fire": {
+      "@angular/common": "^16.0.0",
+      "@angular/core": "^16.0.0",
+      "@angular/platform-browser": "^16.0.0",
+      "@angular/platform-browser-dynamic": "^16.0.0"
+    }
+  },
+  "description": "HasanOnRender"
 }
